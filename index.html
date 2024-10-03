@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light" id="body">
+
+<div class="container mt-5">
+    <h1 class="text-center">Task Manager</h1>
+    <div class="text-center mb-4">
+        <button class="btn btn-primary" id="toggleTheme">Dark/Light Mode</button>
+    </div>
+    <div class="form-group">
+        <input type="text" id="taskInput" class="form-control" placeholder="Add a new task">
+        <button class="btn btn-success mt-2" id="addTask">Add Task</button>
+    </div>
+    
+    <h3>Pending Tasks</h3>
+    <ul id="pendingTasks" class="list-group mb-4"></ul>
+    
+    <h3>Completed Tasks</h3>
+    <ul id="completedTasks" class="list-group mb-4"></ul>
+
+    <div class="progress">
+        <div class="progress-bar" id="progressBar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

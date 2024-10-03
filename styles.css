@@ -1,0 +1,52 @@
+body.dark-mode {
+    background-color: #212529 !important;
+    color: #e9ecef;
+}
+
+.dark-mode .list-group-item {
+    background-color: #343a40;
+    border-color: #6c757d;
+}
+
+.dark-mode .form-control {
+    background-color: #495057;
+    color: #ffffff;
+    border-color: #6c757d;
+}
+
+.dark-mode .progress-bar {
+    background-color: #007bff;
+}
+
+.dark-mode .btn {
+    color: #ffffff;
+    border: none;
+}
+
+.dark-mode .btn-success {
+    background-color: #28a745;
+}
+
+.dark-mode .btn-danger {
+    background-color: #dc3545;
+}
+
+.dark-mode .btn-warning {
+    background-color: #ffc107;
+}
+
+.dark-mode .btn-info {
+    background-color: #17a2b8;
+}
+
+.list-group-item button {
+    margin-left: 5px;
+}
+
+.dark-mode .btn:hover {
+    filter: brightness(85%);
+}
+
+.dark-mode .list-group-item:hover {
+    background-color: #495057;
+}
